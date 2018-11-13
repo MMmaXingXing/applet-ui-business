@@ -20,7 +20,7 @@
 ![face_manage.png](https://upload-images.jianshu.io/upload_images/2046465-cb7b3dac94b5754b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### /face_user/main/index  
-![face_qr_scan.png](https://upload-images.jianshu.io/upload_images/2046465-1937e15fa9512a43.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![face_main.png](https://upload-images.jianshu.io/upload_images/2046465-2d1686244a750737.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 #### /face_user/card_entry/index  
