@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "列表",
+  "usingComponents": {
+    "wux-button": "../../components/wux_change/button/index",
+    "wux-dialog": "../../components/wux_change/dialog/index",
+    "wux-dialog-invite": "../../components/wux_change/dialog_invite/index"
+  }
+}

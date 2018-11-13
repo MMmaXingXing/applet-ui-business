@@ -1,0 +1,57 @@
+.detail_commodity {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.detail_commodity swiper {
+  width: 100%;
+  height: 550rpx;
+  margin-bottom: 0rpx;
+}
+
+.swiper_in_item {
+  position: relative;
+}
+
+.swiper-box {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+.swiper-box .dots {
+  /* width: 156rpx; */
+  height: 36rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 60rpx;
+}
+
+/*未选中时的小圆点样式 */
+
+.swiper-box .dot {
+  width: 26rpx;
+  height: 26rpx;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.swiper-box .dot:not(:last-of-type) {
+  margin-right: 20rpx;
+}
+
+/*选中以后的小圆点样式  */
+
+.swiper-box .active {
+  background-color: rgb(64, 176, 234);
+}
+
+.detail_commodity swiper image {
+  width: 100%;
+  height: 550rpx;
+  border-radius: 5px;
+}

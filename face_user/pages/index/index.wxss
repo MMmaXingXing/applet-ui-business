@@ -1,0 +1,30 @@
+.swiper-swiper{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-color: rgb(243, 243, 243)
+}
+.container .production{
+  width: 100%;
+  min-height: 651rpx;
+  background-color: #fff;
+  border-bottom:30rpx solid rgb(243, 243, 243);
+  box-sizing: border-box;
+  padding: 50rpx 40rpx;
+}
+.production .title{
+  font-size: 30rpx;
+  font-weight:600;
+  margin-bottom: 40rpx;
+}
+.production .content{
+  font-size: 26rpx;
+}
+.container .footer_show{
+  width: 100%;
+  height: 50rpx;
+  background: #fff;
+  border-bottom:5px solid rgb(243, 243, 243);
+}

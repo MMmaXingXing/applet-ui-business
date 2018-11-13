@@ -1,0 +1,9 @@
+var getPhone = function(val){
+  console.log(typeof val)
+  var phone = val.substring(0,3)+"********";
+  return phone;
+}
+
+module.exports = {
+  getPhone: getPhone//手机号后六位替换为***
+}

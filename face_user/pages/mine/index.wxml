@@ -1,0 +1,38 @@
+<view class="container">
+  <view class='top'>
+    <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542699061&di=1ec7f6cc5ea4cc7be0dc4b3f2a08def2&imgtype=jpg&er=1&src=http%3A%2F%2Fpic-cdn.35pic.com%2F58pic%2F19%2F42%2F48%2F56cfdf38c8ff1_1024.jpg' mode="aspectFill"></image>
+    <image class='user' src="../../image/user.png" mode='aspectFill'></image>
+    <text>头像</text>
+    <view class="btn">移交主账号</view>
+  </view>
+  <view class='line'>
+    <view class="title">
+      <text>操作日志</text>
+    </view>
+    <view class='content'>
+      <view class='list' wx:for="item in 3">
+        <view class="icon">
+          <view class="icon_border">
+          {{index+1}}
+          </view>
+        </view>
+        <view class='show_item'>
+          <view class='text_list'>
+            <view class='text-l'>
+              <view class='text_title'>2018/10/16   15:48:06</view>
+              <view class='text_li'>接送纪录:<text>张三李四</text></view>
+              <view class='text_li'>家长姓名:<text>张三李四</text></view>
+              <view class='text_li'>学生名字:<text>张三李四</text></view>
+            </view>
+            <view class='text-r'>
+              <image src='' mode='aspectFill'></image>
+            </view>
+          </view>
+          <view class='opaction'>
+          删除纪录
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

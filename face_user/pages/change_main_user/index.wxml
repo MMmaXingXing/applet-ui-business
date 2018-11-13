@@ -1,0 +1,27 @@
+<view class="container">
+  <view class='content'>
+    <view class='title'>
+      家庭成员
+    </view>
+
+    <view class='list_con' wx:for="{{3}}">
+      <view class='list_left list_i'>
+        <view class='user'>
+          <image src="" mode='aspectFill'></image>
+        </view>
+        <view class="name">微信昵称</view>
+      </view>
+      <view class='line'></view>
+      <view class='list_right list_i'>
+        <view class='user'>
+           <image src="" mode='aspectFill'></image>
+        </view>
+        <view class="name">家长姓名</view>
+      </view>
+    </view>
+
+    <view class='footer'>
+      <view class="footer_btn">选中提交</view>
+    </view>
+  </view>
+</view>

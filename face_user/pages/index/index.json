@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "基础介绍",
+  "usingComponents": {
+    "mine-swiper": "../../components/mine/swiper/index",
+    "zan-dialog": "../../components/mine/dialog/dialog/index"
+  }
+}

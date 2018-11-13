@@ -1,0 +1,30 @@
+<wxs module="phone" src="../../utils/filters/phone_filter.wxs"></wxs>
+
+<view class="container">
+
+  <view class='top_scan'>
+    <image class="scan_img" src="http://placehold.it/200x200"></image>
+  </view>
+
+  <view class='content'>
+    <view class='input-content'>
+      <view class='title'>学校登记手机号  {{phone.getPhone(phoneNum)}}</view>
+      <view class='con'>
+        <input type="number" placeholder='请补全手机号'/>
+      </view>
+    </view>
+    <view class='input-content'>
+      <view class='title'>学校登记联系人姓名</view>
+      <view class='con'>
+        <input type="text"/>
+      </view>
+    </view>
+
+
+    <view class='footer_btn'>
+      <view class='btn btn_y'>确认是我家孩子并绑定</view>
+      <view class='btn btn_e'>我要报错</view>
+    </view>
+
+  </view>
+</view>

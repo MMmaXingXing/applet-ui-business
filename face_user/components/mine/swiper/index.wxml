@@ -1,0 +1,17 @@
+<!-- 轮播图 -->
+<view class='detail_commodity' >
+  <view bind:tap="closePay" class='swiper-box'>
+    <swiper current="{{currentSwiper}}" circular="true" autoplay="{{false}}" interval="{{5000}}" duration="{{1000}}" bindchange="swiperChange">
+      <block wx:for="{{image_data}}">
+        <swiper-item class="swiper_in_item">
+          <image src="{{item}}" class="slide-image" mode="aspectFill" />
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="dots">
+      <block wx:for="{{image_data}}">
+        <view class="dot{{index == currentSwiper ? ' active' : ''}}"></view>
+      </block>
+    </view>
+  </view>
+</view>

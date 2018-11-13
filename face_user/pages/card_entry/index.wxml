@@ -1,0 +1,27 @@
+<view class="container">
+
+  <camera device-position="back" flash="off" binderror="error">
+    <cover-view class='top_frame'>
+      <cover-image class='image' src="../../image/frame.png" mode='scaleToFill' />
+    </cover-view>
+  </camera>
+
+
+  <view class='tip_text'>
+    小提示：本功能需要绑定者实名认证，请拍摄身份证正 面信息以确认用户信息
+  </view>
+
+  <view class='show_card_con'>
+    <view class='con'>
+      <image class='card' src="../../image/card_img.jpg"></image>
+    </view>
+    <view class='check {{check_active ? "active" : ""}}' bindtap='addCheck'>
+      <view class='check_left'></view> 请同意小程序使用协议
+    </view>
+  </view>
+
+
+  <view class='footer_btn'>
+    <button>下一步</button>
+  </view>
+</view>

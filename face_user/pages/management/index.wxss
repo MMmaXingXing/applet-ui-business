@@ -1,0 +1,67 @@
+.container {
+  background-color: rgb(243, 243, 243);
+}
+.container .management-list-content{
+  width: 100%;
+  height:345rpx;
+  padding:35rpx;
+  border-top:40rpx solid rgb(243, 243, 243);
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.management-list-content .title{
+  font-size: 30rpx;
+  font-weight: 700;
+}
+
+.management-list-content  .content{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 33rpx;
+  align-items: flex-start;
+}
+.management-list-content  .content .show{
+  font-size: 24rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content .show-con>.show-con{
+  color: #fff;
+}
+.content .show-con>.show-con.active{
+  border:8rpx solid #6394f7;
+  border-radius: 15rpx;
+}
+.management-list-content  .content .show:not(:last-of-type) {
+  margin-right: 70rpx;
+}
+.management-list-content  .content .show .name{
+  margin-top: 5rpx;
+  color: #666;
+}
+.management-list-content  .content .show .show-con{
+  width: 109rpx;
+  height: 152rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9c9c9c;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content .show-upload .show-con>image{
+  width: 33rpx;
+  height: 33rpx;
+}
+.container .footer-tip{
+  width: 100%;
+  height:120rpx;
+  background-color: rgb(243, 243, 243);
+  color: #666;
+  font-size: 24rpx;
+  padding:25rpx 40rpx;
+  box-sizing: border-box;
+}

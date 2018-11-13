@@ -1,0 +1,63 @@
+<view class="container">
+<wux-dialog id="wux-dialog" />
+<wux-dialog-invite id="wux-invite" />
+  <view class='management-list-content'>
+    <view class='title'>
+      学生列表
+    </view>
+    <view class="content">
+      <view class='show main-show-con'>
+        <view class='show-con' style="background-image:url('')"></view>
+        <view class='name'>学生姓名</view>
+      </view>
+      <view class='show main-show-con'>
+        <view class='show-con' style="background-image:url('')"></view>
+        <view class='name'>学生姓名</view>
+      </view>
+      <view class='show show-upload' bindtap='addStudent'>
+        <view class='show-con'>
+          <image src="../../image/add.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='management-list-content'>
+    <view class='title'>
+      家长列表（2/4）
+    </view>
+    <view class="content">
+      
+      <view class='show show-con'>
+        <view class='show-con active' style="background-image:url('')">
+          主账号
+        </view>
+        <view class='name'>家长姓名</view>
+      </view>
+      <view class='show main-show-con'>
+        <view class='show-con' style="background-image:url('')"></view>
+        <view class='name'>家长姓名</view>
+      </view>
+      <view class='show show-upload' bindtap='addFamily'>
+        <view class='show-con'>
+          <image src="../../image/add.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='management-list-content'>
+    <view class='title'>
+      临时接送人列表
+    </view>
+    <view class="content">
+      <view class='show show-upload'>
+        <view class='show-con'>
+          <image src="../../image/add.png"></image>
+        </view>
+         <view class='name'>接送人姓名</view>
+      </view>
+    </view>
+  </view>
+  <view class='footer-tip'>
+    小提示：添加临时接送人将在24小时后过期。
+  </view>
+</view>

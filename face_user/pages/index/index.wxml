@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+ <zan-dialog id="zan-dialog-test"></zan-dialog>
+ 
+  <mine-swiper class="swiper-swiper" image_data="{{imageSwiper}}"></mine-swiper>
+  <view class='production'>
+    <view class='title'>
+      校园介绍
+    </view>
+    <view class='content'>
+    介绍内容
+    </view>
+  </view>
+  <view class='footer_show'>
+  
+  </view>
+
+  <zan-dialog id="zan-dialog-test"></zan-dialog>
+</view>

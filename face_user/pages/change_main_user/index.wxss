@@ -1,0 +1,88 @@
+.container{
+  background-color: rgb(243, 243, 243);
+}
+.container .content{
+  border-top:40rpx solid #e5e5e5;
+  padding-top: 40rpx;
+  background-color: #fff;
+}
+.content .title{
+  font-size:30rpx;
+  font-weight: 700;
+  margin-left: 60rpx;
+}
+.content .list_con{
+  box-sizing: border-box;
+  padding:70rpx 66rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e3e3e3;
+}
+.content .list_con:first-of-type{
+  padding: 38rpx 66rpx;
+}
+.content .list_con .list_i{
+  height: 200rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24rpx;
+  color: #666;
+}
+.content .list_con .user{
+  margin-bottom: 20rpx;
+  position: relative;
+}
+.content .list_con .list_left .user{
+  width: 122rpx;
+  height: 122rpx;
+  border-radius: 50%;
+  background-color: #e3e3e3;
+}
+.content .list_con .list_left .user image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left:0;
+  top: 0;
+  border-radius: 50%;
+}
+.content .list_con .list_right .user{
+  width: 109rpx;
+  height: 152rpx;
+  background-color: #e3e3e3;
+}
+.content .list_con .list_right .user image{
+   position: absolute;
+  width: 100%;
+  height: 100%;
+  left:0;
+  top: 0;
+}
+.content .list_con .line{
+  width:1px;
+  height: 130rpx;
+  background-color: #e3e3e3;
+}
+
+.container .footer{
+  width: 100%;
+  height: 200rpx;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  color: #fff;
+}
+.container .footer .footer_btn{
+  width: 584rpx;
+  height: 92rpx;
+  background: linear-gradient(to right, rgb(113,130,234) , rgb(94,182,236));
+  border-radius: 25px;
+  text-align: center;
+  line-height: 92rpx;
+  font-weight: 700;
+}

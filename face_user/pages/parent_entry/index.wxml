@@ -1,0 +1,41 @@
+<view class="container">
+<zan-dialog id="zan-dialog-test"></zan-dialog>
+
+  <camera id="camera" device-position="front" flash="off" binderror="error">
+    <cover-view class='top_frame' bindtap='getPhoto'>
+      <cover-image class='image' src="../../image/frame.png" mode='scaleToFill' />
+      <cover-image src="../../image/user_frame.png" class="image user" mode='scaleToFill' />
+      <cover-view class="cover-show-text" animation="{{ opacityCollection }}">点击采集框上传</cover-view>
+    </cover-view>
+  </camera>
+
+  <view class='tip_text'>
+    小提示：请根据人脸提示完成照片采集，其中正面、侧
+脸各2张，仰头、低头各1张，共6张
+  </view>
+
+  <view class='show_list'>
+    <view class='list_li' wx:for="{{6}}"></view>
+  </view>
+
+  <view class='add_user'>
+    <view class="user_list">
+      <view class="title">姓名</view>
+      <view class="content">
+         <input type="text" />
+      </view>
+    </view>
+
+    <view class="user_list">
+      <view class="title">身份证</view>
+      <view class="content">
+         <input type="number" />
+      </view>
+    </view>
+  </view>
+
+
+  <view class='footer_btn'>
+    <button>提交绑定</button>
+  </view>
+</view>

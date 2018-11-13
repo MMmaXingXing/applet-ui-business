@@ -1,0 +1,88 @@
+/* pages/parent_entry/index.wxss */
+
+.container {
+  background: linear-gradient(to bottom, rgb(94, 182, 236), rgb(113, 130, 234));
+  padding: 88rpx 75rpx 82rpx;
+  box-sizing: border-box;
+}
+
+.container .top_frame {
+  width: 100%;
+  height: 422rpx;
+  position: relative;
+  margin-bottom: 36rpx;
+}
+camera{
+  width: 100%;
+  height: 422rpx;
+  position: relative;
+}
+
+.container .top_frame .image {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/* 顶部人脸识别部分样式展示 完毕 */
+
+.container .tip_text {
+  font-size: 24rpx;
+  color: #fff;
+  line-height: 42rpx;
+}
+.container .show_card_con{
+  margin-top: 60rpx;
+  margin-bottom: 140rpx;
+}
+
+.show_card_con .con{
+  width: 100%;
+  height: 420rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show_card_con .con .card{
+  width:533rpx;
+  height:333rpx;
+}
+
+.show_card_con .check{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: #fff;
+}
+
+.show_card_con .check .check_left{
+  position: relative;
+  width: 28rpx;
+  height: 28rpx;
+  background-image: url("https://faceschool-1252048467.cos.ap-shanghai.myqcloud.com/applet-dev/kuang.png");
+  background-size: cover;
+  margin-right: 20rpx;
+}
+.show_card_con .check.active .check_left::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 19rpx;
+  height:15rpx;
+  background-image: url("https://faceschool-1252048467.cos.ap-shanghai.myqcloud.com/applet-dev/duihao.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.footer_btn button {
+  font-size: 30rpx;
+  color: #333;
+}
