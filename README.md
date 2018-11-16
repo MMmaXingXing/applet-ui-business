@@ -35,4 +35,8 @@
 #### /face_user/qr_scan/index  
 ![face_qr_scan.png](https://upload-images.jianshu.io/upload_images/2046465-02ed76590bb18ad8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+#### /face_user/user_info/index
+![face_user_info.png](https://upload-images.jianshu.io/upload_images/2046465-f1730a9a9bc4f09d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 

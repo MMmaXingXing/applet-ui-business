@@ -1,0 +1,32 @@
+<view class="container">
+  <view class='top'>
+    <view class='cicle_image'>
+      <image src='../../image/icon.user.png'></image>
+    </view>
+    <!-- 轮播图 -->
+    <view class='detail_commodity'>
+        <swiper current="{{currentSwiper}}" circular="true" autoplay="{{false}}" interval="{{5000}}" duration="{{1000}}" bindchange="swiperChange">
+          <block wx:for="{{ imgUrls }}">
+            <swiper-item class="swiper_in_item">
+              <image src="{{item}}" class="slide-image" mode="aspectFill" />
+              <view class='modal'></view>
+            </swiper-item>
+          </block>
+        </swiper>
+        <view class='desc_con'>
+          <view class=''>
+            <view class='title'>姓名：张三李四</view>
+            <view class='price'>员工号:123451</view>
+          </view>
+        </view>
+        <view class="dots">
+          <block wx:for="{{ imgUrls }}">
+            <view class="dot{{index == currentSwiper ? ' active' : ''}}"></view>
+          </block>
+        </view>
+      </view>
+  </view>
+  <view class='footer'>
+    <image wx:for="{{ imgUrls }}" src="../../image/icon.user.png"></image>
+  </view>
+</view>

@@ -1,13 +1,14 @@
 {
   "pages": [
+    "pages/user_info/index",
+    "pages/parent_entry/index",
     "pages/mine/index",
     "pages/index/index",
-    
     "pages/qr_scan/index",
-    "pages/parent_entry/index",
     "pages/change_main_user/index",
     "pages/card_entry/index",
     "pages/management/index"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
