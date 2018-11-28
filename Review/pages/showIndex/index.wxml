@@ -1,0 +1,38 @@
+<van-tabs active="{{ active }}">
+  <van-tab title="仓库 1" >
+    <view class='review_content'>
+      <view class="review_list" wx:for="{{5}}" bindtap='tostorage'>
+      <view class='left'>
+        <view class='fir_top'>
+          <view class='title'>第一个标题</view>
+          <view class='date'>2018-11-27 10:34</view>
+        </view>
+        <view class='sec_center'>
+          <text>内容的标题：</text>
+        </view>
+        <view class='thr_end'>
+          <text>我是需要审核的内容君我是需要审核的内容君</text>
+        </view>
+      </view>
+      <view class='right'>
+        <view class='review_check'>
+          <view catchtap='tostorage'>入库</view>
+          <view catchtap='back'>撤回</view>
+        </view>
+        <view class='right_icon '>
+          <text class='iconfont icon-right'></text>
+        </view>
+      </view>
+    </view>
+    </view>
+  </van-tab>
+  <van-tab title="仓库 2">内容 2</van-tab>
+  <van-tab title="仓库 3">内容 3</van-tab>
+  <van-tab title="仓库 4">内容 4</van-tab>
+  <van-tab title="仓库 5">内容 5</van-tab>
+  <van-tab title="仓库 6">内容 6</van-tab>
+</van-tabs>
+
+<van-dialog use-slot async-close show="{{ addReasonShow }}" show-cancel-button bind:close="onClose" bind:confirm="onAdd">
+      <input placeholder="请输入拒绝理由内容" style='margin:30rpx;' bindinput="addTextInput" value="{{addtextvalue}}" type='text' auto-focus/>
+</van-dialog>

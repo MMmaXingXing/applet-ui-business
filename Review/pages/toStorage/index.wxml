@@ -1,0 +1,56 @@
+<view class="container">
+  <view class='top card'>
+    <view class='row'>
+      <text class='iconfont icon-icon-user'></text>    
+      <view class='right'>
+        <view class='title'>姓名：</view>
+        <view class='content'>张三李四</view>
+      </view>
+    </view>
+    <view class='row'>
+      <text class='iconfont icon-computer'></text>    
+      <view class='right'>
+        <view class='title'>上传时间：</view>
+        <view class='content'>张三李四</view>
+      </view>
+    </view>
+    <view class='row'>
+      <text class='iconfont icon-card'></text>    
+      <view class='right'>
+        <view class='title'>编号ID：</view>
+        <view class='content'>12345132</view>
+      </view>
+    </view>
+  </view>
+  <view class="card">
+    <view class='row'>
+      <text class='iconfont icon-picture'></text>    
+      <view class='right' style='border:none;padding-left:0;'>
+        <view class='title' style="">照片</view>
+        <view class='content'></view>
+      </view>
+    </view>
+    <view class='picture'>
+      <wux-upload listType="picture-card" defaultFileList="{{ fileList }}" max="4" url="https://www.skyvow.cn/api/common/file" bind:change="onChange" bind:success="onSuccess" bind:fail="onFail" bind:complete="onComplete" bind:preview="onPreview">
+            <text>+</text>
+      </wux-upload>
+    </view>
+  </view>
+
+  <view class="card">
+    <view class='row'>
+      <text class='iconfont icon-beizhu'></text>    
+      <view class='right' style='border:none;padding-left:0;'>
+        <view class='title' >备注</view>
+        <view class='content'></view>
+      </view>
+    </view>
+    <view class='picture'>
+      <textarea placeholder="请添加备注" />
+    </view>
+  </view>
+
+  <view class='footer'>
+    <button class='btn'>审批通过</button>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<view class="container">
+  <view class='login'>
+    <view class='title'>用户登陆</view>
+     <input class="input"  bindinput="bindKeyInput" placeholder="请输入用户名"/>
+     <input class="input" bindinput="bindKeyInput" placeholder="请输入密码"/>
+     <button class="btn" bindtap="toIndex">登陆</button>
+  </view>
+</view>

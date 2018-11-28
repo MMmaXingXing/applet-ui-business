@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "入库",
+  "usingComponents": {
+    "wux-upload": "../../components/wux/upload/index"
+  }
+}

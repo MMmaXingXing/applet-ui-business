@@ -1,0 +1,20 @@
+ <scroll-view scroll-y class='container' bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+   <view class="show_list" wx:for="{{5}}">
+    <view class='left'>
+      <view class='left_top'>
+        <text>标题</text>
+        <text class='date'>2018-1-29 17:45</text>
+      </view>
+      <view class='left_center'>
+        备注资料信息
+      </view>
+      <view class='left_bottom'>
+        <view class="status"></view>
+        <text>订单</text>
+      </view>
+    </view>
+    <view class='right'>
+      <view class='btn yellow'>待审核</view>
+    </view>
+   </view>
+  </scroll-view>
